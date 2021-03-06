@@ -1,0 +1,63 @@
+# VIARDOT-Célia
+corps{
+ couleur: windowframe;
+ marge: auto;
+ largeur: 600px;
+police-famille: 'Reenie Beanie', serif; 
+}
+
+h1{
+marge: 50px 0px 0px 50px;
+}
+
+
+#Onglet {
+	position : relative;
+ rembourrage: 10px 0 10px 5px;
+ contexte: #181A12;
+
+bordure: solide #99CC66 1px; 
+
+}
+
+body>#Tab {largeur:600px;}
+
+
+div#Tab a {
+largeur :50px;
+marge : 10px;
+texte-aligner: centre; 
+ rembourrage: 5px 10px; marge: 0 0 1px; 
+ texte-décoration: aucun; couleur: blanc;}
+
+div#Tab a:hover {
+ couleur: #411; 
+ fond-couleur: windowframe;
+}
+
+div#Tab une travée {
+affichage: aucun;
+position : absolue;
+haut : 200px;
+marge : auto;
+
+largeur: 600px;
+hauteur : 500px;
+z-index : -40;
+fond-couleur : blanc ;
+
+}
+
+div#Tab a:hover span {
+affichage: bloc;
+z-index : 1;
+
+}
+
+.small {
+bordure: 1px blanc massif;
+ curseur: pointeur;
+ hauteur: 50px;
+ marge: 0 0 5px 5px;
+ largeur: 50px;
+}
